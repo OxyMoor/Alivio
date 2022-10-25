@@ -1,0 +1,181 @@
+@media (max-width: 1430px) {
+    .logo-link {
+        margin-right: 0;
+    }
+
+    .header-nav-list {
+        display: none;
+    }
+
+    .nav-open-btn {
+        display: block;
+    }
+
+    .nav-btns {
+        margin-right: 50px;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    .section-subtitle {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .steps-row-top {
+        flex-direction: column;
+    }
+
+    .steps-description {
+        max-width: 70%;
+    }
+
+    .story-row {
+        flex-direction: column;
+        row-gap: 70px;
+    }
+
+    .story-content {
+        text-align: center;
+    }
+
+    .story-video-wrap {
+        width: 70%;
+    }
+
+    .product-row {
+        flex-direction: column;
+        row-gap: 70px;
+        text-align: center;
+    }
+
+    .product-description {
+        max-width: 100%;
+    }
+
+    .product-img {
+        display: none;
+    }
+
+    .product-card-wrap {
+        padding-left: 0;
+        order: 1;
+    }
+
+    .product-card {
+        position: relative;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 968px) {
+    body, 
+    .btn, 
+    .sign-in-btn {
+        font-size: 14px;
+    }
+
+    .header-content, 
+    .story, 
+    .product {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .steps {
+        padding-top: 100px;
+    }
+
+    .steps-row-bottom {
+        row-gap: 50px;
+    }
+
+    .steps-card:nth-child(1), 
+    .steps-card:nth-child(2), 
+    .steps-card:nth-child(3) {
+        background-position: top center;
+    }
+
+    .steps-card:nth-child(2) {
+        margin-top: 0;
+    }
+
+    .story-video-wrap {
+        width: 85%;
+    }
+
+    .footer-row {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 700px) {
+    .header-content, 
+    .story, 
+    .product {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .header-title {
+        font-size: 55px;
+        line-height: 1;
+    }
+
+    .nav {
+        justify-content: space-between;
+    }
+
+    .nav-btns {
+        margin-left: 0;
+    }
+
+    .trial-btn {
+        display: none;
+    }
+
+    .section-subtitle {
+        font-size: 40px;
+        line-height: 1;
+    }
+
+    .steps {
+        padding-top: 50px;
+    }
+
+    .steps-row-top {
+        margin-bottom: 50px;
+    }
+
+    .steps-description {
+        max-width: 100%;
+    }
+
+    .steps-card-title, 
+    .steps-card-description {
+        margin-bottom: 30px;
+    }
+
+    .story-description {
+        font-size: 20px;
+    }
+
+    .story-video-wrap {
+        width: 100%;
+    }
+
+    .footer-nav {
+        align-items: flex-start;
+    }
+
+    .footer-nav-list {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+}
