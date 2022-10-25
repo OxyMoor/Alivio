@@ -8,4 +8,4 @@ The project is a site of a stress management company, including 4 sections: "gre
 - Burger-menu
 - HTML-5 video player
 - Animation on scroll
-### Deploy: https://seriakovaoksana.github.io/
+### Deploy: https://seriakovaoksana.github.io/Alivio/
